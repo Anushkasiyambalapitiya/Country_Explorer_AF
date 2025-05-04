@@ -104,7 +104,7 @@ const CountryDetails = () => {
       {/* Bottom Button */}
       <div className="mt-10 flex justify-center">
         <Link
-          to="/countries"
+          to="/"
           className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded shadow"
         >
           ← Back to Explorer
