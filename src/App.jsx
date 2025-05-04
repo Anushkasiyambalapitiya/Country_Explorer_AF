@@ -25,7 +25,7 @@ function App() {
   
      <HeaderNavbar /> 
      <Routes>
-      <Route path='/' element={<Dashboard/>}>    </Route>
+      {/* <Route path='/countries' element={<Dashboard/>}>    </Route> */}
       <Route path='/countries' element={<Countries/>}>    </Route>
       <Route path="/country/:code" element={<CountryDetails />} /> {/* ⬅️ Add this */}
       <Route path="/signIn" element={<SignIn />} /> {/* ⬅️ Add this */}
