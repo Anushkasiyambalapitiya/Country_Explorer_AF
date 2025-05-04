@@ -29,7 +29,7 @@ const HeaderNavbar = () => {
 
         {/* Right Side for Desktop */}
         <div className="hidden md:flex items-center space-x-6">
-          <a href="/countries" className="text-white hover:text-white flex items-center space-x-2">
+          <a href="/" className="text-white hover:text-white flex items-center space-x-2">
             <FaHome />
             <span>Home</span>
           </a>
@@ -45,7 +45,7 @@ const HeaderNavbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="mt-4 flex flex-col space-y-4 md:hidden">
-          <a href="/countries" className="text-white flex items-center space-x-2">
+          <a href="/" className="text-white flex items-center space-x-2">
             <FaHome />
             <span>Home</span>
           </a>

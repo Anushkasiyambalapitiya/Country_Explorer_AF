@@ -16,8 +16,8 @@ const handleClick = ()=>{
           <div className="flex items-center gap-6 mb-4 md:mb-0">
             <span className="text-xl font-bold">Rest Countries</span>
             <span className="hidden md:block">|</span>
-            <a href="/countries" className="hover:text-blue-200 transition-colors">Home</a>
-            <a href="/countries" className="hover:text-blue-200 transition-colors">Countries</a>
+            <a href="/" className="hover:text-blue-200 transition-colors">Home</a>
+            <a href="/" className="hover:text-blue-200 transition-colors">Countries</a>
             <a href="#" className="hover:text-blue-200 transition-colors">About</a>
           </div>
 
